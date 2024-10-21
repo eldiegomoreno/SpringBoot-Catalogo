@@ -10,8 +10,15 @@ para obtener productos
 http://localhost:8080/api/productos     metodo GET
 
     
+INGRESAR PRODUCTOS
 http://localhost:8080/api/productos        metodo POST
     {
         "nombre": "nombre de producto",
         "precio": precio de producto
     }
+
+
+ELIMINAR
+http://localhost:8080/api/productos/1       metodo DELETE
+
+
